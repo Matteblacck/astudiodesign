@@ -1,0 +1,516 @@
+@media (max-width:1300px){
+    .container{
+        max-width: 1000px;
+
+    }
+    .general-info{
+        padding-top: 30px;
+    }
+    .general-info-text h1{
+        font-size: 40px;
+    
+    }
+    .general-info-text p{
+        font-size: 15px;
+
+    }
+    .clients-info h3{
+        font-size: 35px;
+    }
+    .clients-info p{
+        font-size: 17px;
+        width: max-content;
+    }
+    .client-svg-container svg{
+        transform: scale(0.7);
+    
+    }
+    .client-svg-container{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .help-text h2{
+        font-size: 30px;
+
+    }
+    .help-text p{
+        font-size: 15px;
+    }
+    .card {
+        width: 208px;
+        height: 280px;
+    }
+    .card-title{
+        padding-top: 20px;
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-description{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 13px;
+        padding-top: 16px;
+
+    }
+    .icon{
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .since{
+        flex-direction: column-reverse;
+        padding-top: 10%;
+    }
+    .since-text{
+        margin-top: 1em;
+        margin-left: 26em;
+    }
+    .happy-clients-text h2{
+        font-size: 40px;
+    }
+    .happy-clients-text p{
+        font-size: 15px;
+
+    }
+    .happy-clients-main-text h3{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .happy-clients-main-text p{
+        padding-top: 5%;
+        font-size: 16px;
+
+    }
+    .man-img{
+        width: 100%;
+        height: auto;
+    }
+    .group-img-container{
+        display: none;
+    }
+    .subscribe{
+        column-gap: 1em;
+
+    }
+    .subscribe-text h2{
+        font-size: 40px;
+    }
+    .subscribe-text p{
+        font-size: 15px;
+        font-family: Averta Demo PE Cutted Demo ;
+        padding-top: 5%;
+    }
+    .email-input-container {
+        position: relative;
+        display: inline-block;
+    
+    }
+    .email-input-container input {
+        flex-grow: 1;
+        background-color:white;
+        border: 1px solid #ccc;
+        border: none; /* Границы отсутствуют */
+        outline: none; /* Очертание при фокусе отсутствует */
+        border-color: #F2F2F2;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        width: 400px;
+        height: 80px;
+        border-radius: 60px;
+        font-size: 16px;
+        font-family: Averta Demo PE Cutted Demo ;
+        font-size: 16px;
+        padding-left:8% ;
+    }
+    .email-input-container button {
+        position: absolute;
+        margin-left: 14em;
+        width: 188px;
+        height: 60px;
+        font-size: 17px;
+        top: 0.6em;
+        border: none;
+        cursor: pointer;
+    }
+    .subscribe::before{
+        max-width: 100%;
+        
+    }
+    .email-input-container::before{
+        transform: scale(0.75);
+        margin-left: 2em;
+
+    }
+    .footer{
+        column-gap: 3%;
+    }
+    .main-column{
+        min-width: max-content;
+    }
+}
+@media (max-width:1000px){
+    .container{
+        max-width: 700px;
+
+    }
+    .header-nav{
+        display: grid;
+    }
+    .header-nav-list{
+        display: flex;
+        font-family: 'Averta Demo PE Cutted Demo';
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: 20px;
+        column-gap: 40px;
+    }
+    .general-info{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .general-info-text h1{
+        font-size: 50px;
+    
+    }
+    .general-info-text p{
+        font-size: 18px;
+
+    }
+    .contact-button-container{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: max-content;
+    }
+    .presentation-img {
+        max-width: 100%;
+        height: auto; /* Высота автоматически изменяется для сохранения пропорций */
+    }
+    
+    .clients-info h3{
+        font-size: 40px;
+    }
+    .clients-info p{
+        font-size: 18px;
+        width: max-content;
+    }
+    .client-svg-container svg{
+        transform: scale(0.8);
+    
+    }
+    .client-svg-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding-top:5%;
+        padding-left: 2%;
+    }
+    .help{
+        padding-top: 20%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .help-text h2{
+        font-size: 40px;
+
+    }
+    .help-text p{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+        padding-left: 5em;
+
+    }
+    .card {
+        width: 208px;
+        height: 280px;
+    }
+    .card-title{
+        padding-top: 20px;
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-description{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 13px;
+        padding-top: 16px;
+
+    }
+    .card:nth-child(odd) {
+        transform: translateY(0px); 
+    }
+    .icon{
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .since{
+        flex-direction: column-reverse;
+        padding-top: 10%;
+    }
+    .since-text{
+        margin-top: 1em;
+        margin-left: 10%;
+    }
+    .email-input-container input {
+        width: 335px;
+        height: 80px;
+        font-size: 14px;
+        padding-left:8% ;
+    }
+    .email-input-container button {
+        position: absolute;
+        margin-left: 12em;
+        width: 148px;
+        height: 55px;
+        font-size: 17px;
+        top: 0.7em;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .subscribe::before{
+        max-width: 100%;
+        
+    }
+    .email-input-container::before{
+        transform: scale(0.55);
+        margin-left: -3em;
+
+    }
+    .footer{
+        column-gap: 3%;
+    }
+    .main-column{
+        min-width: max-content;
+    }
+    .other-columns{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:720px){
+    .container{
+        max-width: 500px;
+        width: 100%;
+
+    }
+    header{
+        width: max-content;
+        padding-left: 20%;
+        max-width: 100%;
+    }
+    .header-nav{
+        display: grid;
+        width: max-content;
+    }
+    .header-nav-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 20px;
+        padding-top: 20px;
+        gap:10px;
+        column-gap: 45px;
+    }
+    .general-info{
+        margin-top: -70px;
+        flex-direction: column;
+    }
+    .general-info-text h1{
+        font-size: 40px;
+    
+    }
+    .general-info-text p{
+        width: max-content;
+        padding-top: 15px;
+        font-size: 15px;
+
+    }
+    .contact-button-container{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: max-content;
+    }
+    .presentation-img {
+        max-width: 100%;
+        height: auto; /* Высота автоматически изменяется для сохранения пропорций */
+    }
+    .clients{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15%;
+    }
+    
+    .clients-info h3{
+        font-size: 45px;
+    }
+    .clients-info p{
+        font-size: 20px;
+        width: max-content;
+    }
+    .client-svg-container svg{
+        transform: scale(0.9);
+    
+    }
+    .client-svg-container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding-top:5%;
+        padding-left: 10%;
+        column-gap: 50px;
+    }
+    .help{
+        padding-top: 20%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .help-text h2{
+        font-size: 40px;
+
+    }
+    .help-text p{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 18px;
+    }
+    .card-container{
+        transform: scale(0.8);
+        margin-left: -8em;
+
+    }
+    .card-title{
+        padding-top: 20px;
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-description{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 13px;
+        padding-top: 16px;
+
+    }
+    .card:nth-child(odd) {
+        transform: translateY(0px); 
+    }
+    .icon{
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .since{
+        flex-direction: column-reverse;
+        padding-top: 10%;
+    }
+    .since-text{
+        margin-top: 1em;
+        margin-left: 10%;
+    }
+    .since-text p{
+        font-size: 18px;
+    
+    }
+    .since-img-container{
+        margin-top: -20px;
+        margin-left: -5em;
+    }
+    .since-img-container:before{
+        margin-left: 25em;
+        margin-top: 16em;
+        background-image: url(./images/Ellipse\ 86.png);
+        z-index: -1;
+    }
+    .back-img{
+        transform: scale(0.7);
+    }
+    .happy-clients-text h2{
+        width: max-content;
+    }
+    .happy-clients-text p{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 20px;
+        line-height: 1.4;
+        padding-top: 5%;
+        padding-left: 2%;
+    }
+    .happy-clients-main{
+        padding-top: -2em;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .happy-clients-text h2{
+        font-size: 35px;
+
+    }
+    .happy-clients-text p{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 15px;
+        line-height: 1.4;
+        padding-top: 2%;
+    }
+    .happy-clients-main-text{
+        padding-left: 2%;
+    }
+    .happy-clients-main-text h3{
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 30px;
+        font-weight: 600;
+   
+    }
+    .happy-clients-main-text p{
+        padding-top: 5%;
+        font-family:Averta Demo PE Cutted Demo;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .email-input-container input {
+        width: 335px;
+        height: 80px;
+        font-size: 14px;
+        padding-left:8% ;
+    }
+    .email-input-container button {
+        position: absolute;
+        margin-left: 12em;
+        width: 148px;
+        height: 55px;
+        font-size: 17px;
+        top: 0.7em;
+        border: none;
+        cursor: pointer;
+    }
+    .subscribe{
+        flex-direction: column;
+        gap: 3em;
+    }
+    
+    .subscribe::before{
+        max-width: 100%;
+        
+    }
+    .email-input-container::before{
+        transform: scale(0.55);
+        margin-left: -3em;
+        display: none;
+
+    }
+    .footer{
+        column-gap: 3%;
+        flex-direction: column-reverse;
+    }
+    .main-column{
+        min-width: max-content;
+    }
+    .other-columns{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
